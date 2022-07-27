@@ -8,7 +8,7 @@ Order by 3,4
 --Order by 3,4
 
 
--- Let's Break Things Down by Continent
+-- Let's Break Things Down by Country
 
 Select location, Max(cast(Total_deaths as int)) as TotalDeathCount
 From [PortfolioProject.COVID]..[COVID.Deaths]
@@ -17,6 +17,15 @@ Where continent is not null
 Group by location
 Order by TotalDeathCount desc
 
+--Breakdown by Continent, sans 'World', 'European Union', 'International', 'Upper middle income', 'High income', 'Lower middle income', 'Low income'
+
+Select location, Max(cast(Total_deaths as int)) as TotalDeathCount
+From [PortfolioProject.COVID]..[COVID.Deaths]
+--Where location like '%states%'
+Where continent is null
+and location not in ('World', 'European Union', 'International', 'Upper middle income', 'High income', 'Lower middle income', 'Low income')
+Group by location
+Order by TotalDeathCount desc
 
 --Select Data that we are going to be using
 
@@ -47,6 +56,14 @@ Select Location, Population, MAX(total_cases) as HighestInfectionCount, MAX((tot
 From [PortfolioProject.COVID]..[COVID.Deaths]
 --Where location like '%states%'
 Group by Location, Population
+Order by PercentPopulationInfected desc
+
+-- Looking at Countries with Highest Infection Rate compared to Population, Date
+
+Select Location, Population, date, MAX(total_cases) as HighestInfectionCount, MAX((total_cases/population))*100 as PercentPopulationInfected
+From [PortfolioProject.COVID]..[COVID.Deaths]
+--Where location like '%states%'
+Group by Location, Population, date
 Order by PercentPopulationInfected desc
 
 -- Showing Countries with Highest Death Count per Population
