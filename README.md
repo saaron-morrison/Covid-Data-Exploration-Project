@@ -1,7 +1,6 @@
-# COVID-19 Data Analysis Project
+# COVID-19 Data Exploration & Analysis Project
 
 This project provides a comprehensive analysis of COVID-19 data, exploring infection rates, mortality statistics, and vaccination progress across countries and continents. The SQL queries analyze pandemic trends and create visualizations-ready datasets for further exploration.
-Key Analyses Performed.
 
 ## Global COVID-19 Statistics
 
