@@ -91,4 +91,4 @@ Key Analyses Performed.
 
 - Vaccination program effectiveness tracking
 
-    - Comparative studies between countries/regions
+- Comparative studies between countries/regions
