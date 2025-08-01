@@ -5,35 +5,35 @@ Key Analyses Performed.
 
 ## Global COVID-19 Statistics
 
-    - Total cases and deaths worldwide
+- Total cases and deaths worldwide
 
-    - Death percentage calculation across all reported cases
+- Death percentage calculation across all reported cases
 
-    - Daily trends in infections and fatalities
+- Daily trends in infections and fatalities
 
 ## Country-Level Analysis
 
-    - Highest infection rates relative to population
+- Highest infection rates relative to population
 
-    - Total death counts by country
+- Total death counts by country
 
-    - Case and death trends in specific countries (with United States as primary example)
+- Case and death trends in specific countries (with United States as primary example)
 
 ## Continental Breakdown
 
-    - Death counts by continent
+- Death counts by continent
 
-    - Comparative analysis of continental impacts
+- Comparative analysis of continental impacts
 
-    - Exclusion of non-geographic groupings (income levels, EU aggregates)
+- Exclusion of non-geographic groupings (income levels, EU aggregates)
 
 ## Vaccination Progress Tracking
 
-    - Daily vaccination numbers by country
+- Daily vaccination numbers by country
 
-    - Rolling vaccination totals calculation
+- Rolling vaccination totals calculation
 
-    - Percentage of population vaccinated over time
+- Percentage of population vaccinated over time
 
 ## Technical Implementation
 - Data Sources
@@ -44,51 +44,51 @@ Key Analyses Performed.
 
 ## Advanced SQL Techniques
 
-    - Window Functions: Used to calculate rolling vaccination totals
+- Window Functions: Used to calculate rolling vaccination totals
 
-    - Common Table Expressions (CTEs): Implemented for complex calculations
+- Common Table Expressions (CTEs): Implemented for complex calculations
 
-    - Temporary Tables: Created for intermediate result storage
+- Temporary Tables: Created for intermediate result storage
 
-    - Views: Established for persistent visualization-ready datasets
+- Views: Established for persistent visualization-ready datasets
 
 ## Key Metrics Calculated
 
-    - Death percentage (Total deaths / Total cases)
+- Death percentage (Total deaths / Total cases)
 
-    - Infection rate (Total cases / Population)
+- Infection rate (Total cases / Population)
 
-    - Vaccination coverage (Rolling vaccinations / Population)
+- Vaccination coverage (Rolling vaccinations / Population)
 
 ## Insights Generated
 - Infection Patterns
 
-    - Identification of countries with highest infection rates relative to population
+- Identification of countries with highest infection rates relative to population
 
-    - Time-series analysis of infection growth
+- Time-series analysis of infection growth
 
 ## Mortality Analysis
 
-    - Countries with highest absolute death counts
+- Countries with highest absolute death counts
 
-    - Continental comparisons of COVID-19 fatalities
+- Continental comparisons of COVID-19 fatalities
 
-    - Case fatality rate calculations
+- Case fatality rate calculations
 
 ## Vaccination Progress
 
-    - Tracking of vaccination campaigns by country
+- Tracking of vaccination campaigns by country
 
-    - Calculation of population vaccination percentages
+- Calculation of population vaccination percentages
 
-    - Daily vaccination trend analysis
+- Daily vaccination trend analysis
 
 ## Potential Applications
 
-    - Public health policy analysis
+- Public health policy analysis
 
-    - Pandemic response evaluation
+- Pandemic response evaluation
 
-    - Vaccination program effectiveness tracking
+- Vaccination program effectiveness tracking
 
     - Comparative studies between countries/regions
